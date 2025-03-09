@@ -6,6 +6,15 @@ This document contains notes from the first lecture (Lecture 0) of CS50.
 
 > **Key principle:** What ultimately matters in this course is not so much where you end up relative to your classmates but where you end up relative to yourself when you began.
 
+## Contents
+
+- [What is Computer Science?](#what-is-computer-science)
+- [Binary](#binary)
+- [Representing Data](#representing-data)
+- [Algorithms](#algorithms)
+- [Pseudocode](#pseudocode)
+- [Scratch](#scratch)
+
 ## What is Computer Science?
 
 > **Definition:** **Computer science is fundamentally problem-solving.**
