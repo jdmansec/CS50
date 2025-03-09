@@ -2,23 +2,7 @@
 
 ## Overview
 
-This document contains notes from the first lecture (Lecture 0) of CS50, introducing the fundamental concepts of computer science.
-
-## Contents
-
-- [Welcome](#welcome)
-- [What is Computer Science?](#what-is-computer-science)
-- [Binary](#binary)
-- [Representing Data](#representing-data)
-- [Algorithms](#algorithms)
-- [Pseudocode](#pseudocode)
-- [Scratch](#scratch)
-
-## Welcome
-
-When David was a first year, he was too intimidated to take any computer science courses. By the time he was a sophomore, he found the courage to take the equivalent of CS50, but only pass/fail.
-
-In fact, two-thirds of CS50 students have never taken a CS course before.
+This document contains notes from the first lecture (Lecture 0) of CS50.
 
 > **Key principle:** What ultimately matters in this course is not so much where you end up relative to your classmates but where you end up relative to yourself when you began.
 
@@ -26,31 +10,16 @@ In fact, two-thirds of CS50 students have never taken a CS course before.
 
 > **Definition:** **Computer science is fundamentally problem-solving.**
 
-We can think of problem-solving as the process of taking some input (details about our problem) and generate some output (the solution to our problem). The "black box" in the middle is computer science.
-
-We need a way to represent inputs, such that we can store and work with information in a standard way.
+We can think of problem-solving as the process of taking some input (details about our problem) and generate some output (the solution to our problem). We need a way to represent inputs, such that we can store and work with information in a standard way.
 
 ## Binary
 
 > **Definition:** A computer, at the lowest level, stores data in **binary**, a numeral system in which there are just two digits, 0 and 1.
 
-When we first learned to count, we might have used one finger to represent one thing. That system is called unary. When we learned to write numbers with the digits 0 through 9, we learned to use decimal.
-
-For example, we know the following represents one hundred and twenty-three:
-```
-1 2 3
-```
-
-The 3 is in the ones column, the 2 is in the tens column, and the 1 is in the hundreds column.
-
-So 123 is 100×1 + 10×2 + 1×3 = 100 + 20 + 3 = 123.
-
-Each place for a digit represents a power of ten, since there are ten possible digits for each place.
-
 In binary, with just two digits, we have powers of two for each place value:
 ```
 4 2 1
-0 0 0
+<span style="color:red">0 0 0</span>
 ```
 
 This would still be equal to 0.
@@ -58,13 +27,13 @@ This would still be equal to 0.
 Now if we change the binary value to, say, 0 1 1, the decimal value would be 3.
 ```
 4 2 1
-0 1 1
+<span style="color:red">0 1 1</span>
 ```
 
 If we wanted to represent 8, we would need another digit:
 ```
 8 4 2 1
-1 0 0 0
+<span style="color:red">1 0 0 0</span>
 ```
 
 > **Important concept:** Binary makes sense for computers because we power them with electricity, which can be either on or off, so each bit only needs to be on or off.
