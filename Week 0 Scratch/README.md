@@ -19,7 +19,8 @@ We can think of problem-solving as the process of taking some input (details abo
 In binary, with just two digits, we have powers of two for each place value:
 ```
 4 2 1
-<span style="color:red">0 0 0</span>
+-----
+0 0 0
 ```
 
 This would still be equal to 0.
@@ -27,13 +28,15 @@ This would still be equal to 0.
 Now if we change the binary value to, say, 0 1 1, the decimal value would be 3.
 ```
 4 2 1
-<span style="color:red">0 1 1</span>
+-----
+0 1 1
 ```
 
 If we wanted to represent 8, we would need another digit:
 ```
 8 4 2 1
-<span style="color:red">1 0 0 0</span>
+-------
+1 0 0 0
 ```
 
 > **Important concept:** Binary makes sense for computers because we power them with electricity, which can be either on or off, so each bit only needs to be on or off.
