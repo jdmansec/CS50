@@ -14,7 +14,7 @@ We can think of problem-solving as the process of taking some input (details abo
 
 ## Binary
 
-> **Definition:** A computer, at the lowest level, stores data in **binary**, a numeral system in which there are just two digits, 0 and 1.
+> **Definition:** A computer, at the lowest level, stores data in **binary**, a numeral system in which there are just two digits, **0** and **1**.
 
 In binary, with just two digits, we have powers of two for each place value:
 ```
@@ -41,19 +41,25 @@ If we wanted to represent 8, we would need another digit:
 
 > **Important concept:** Binary makes sense for computers because we power them with electricity, which can be either on or off, so each bit only needs to be on or off.
 
-In a computer, there are millions or billions of switches called transistors that can store electricity and represent a bit by being "on" or "off".
+In a computer, there are millions or billions of switches called **transistors** that can store electricity and **represent a bit** by being **"on"** or **"off"**.
 
 With enough bits, or binary digits, computers can count to any number.
 
-> **Definition:** 8 bits make up one byte.
+> **Definition:** **8 bits** make up **one byte**.
 
 ## Representing Data
 
-To represent letters, all we need to do is decide how numbers map to letters. Some humans, many years ago, collectively decided on a standard mapping called ASCII. The letter "A", for example, is the number 65, and "B" is 66, and so on. The mapping also includes punctuation and other symbols. Other characters, like letters with accent marks, and emoji, are part of a standard called Unicode that use more bits than ASCII to accommodate all these characters.
+To represent letters, all we need to do is decide how numbers map to letters. Some humans, many years ago, collectively decided on a standard mapping called ASCII. 
 
-> **Key concept:** When we receive an emoji, our computer is actually just receiving a decimal number like 128514 (11111011000000010 in binary) that it then maps to the image of the emoji.
+> **ASCII (American Standard Code for Information Interchange):** The most common character encoding format for text data in computers and on the internet.
+
+The letter "A", for example, is the number 65, and "B" is 66, and so on. The mapping also includes punctuation and other symbols. Other characters, like letters with accent marks, and emoji, are part of a standard called Unicode that use more bits than ASCII to accommodate all these characters.
+
+> **Emoji Example:** When we receive an emoji, our computer is actually just receiving a decimal number like 128514 (11111011000000010 in binary) that it then maps to the image of the emoji.
 
 An image, too, is comprised of many smaller square dots, or pixels, each of which can be represented in binary with a system called RGB, with values for red, green, and blue light in each pixel. By mixing together different amounts of each color, we can represent millions of colors.
+
+> **RGB (Red, Green and Blue):** A system representing the colors used on a digital display screen. RGB can be combined in various proportions to obtain any color in the visible spectrum.
 
 > **Important concept:** Computer programs know, based on the context of its code, whether the binary numbers should be interpreted as numbers, or letters, or pixels.
 
@@ -62,8 +68,6 @@ And videos are just many, many images displayed one after another, at some numbe
 ## Algorithms
 
 > **Definition:** **Algorithms** are step-by-step instructions for solving a problem.
-
-So now we can represent inputs and outputs. The black box earlier will contain algorithms, step-by-step instructions for solving a problem.
 
 Let's say we wanted to find a friend, Mike Smith, in a phone book.
 
