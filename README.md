@@ -3,7 +3,6 @@
 This repo contains notes for the course **CS50: Introduction to Computer Science**, offered by Harvard University.
 
 ## Weeks Covered:
-
 - **Week 0**: Scratch 😺
 - **Week 1**: C
 - **Week 2**: Arrays
