@@ -1,4 +1,4 @@
-# CS50: Introduction to Computer Science - Notes
+# CS50: Introduction to Computer Science
 
 This repo contains notes for the course **CS50: Introduction to Computer Science**, offered by Harvard University.
 
